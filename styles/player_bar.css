@@ -15,7 +15,7 @@
 
 .player-bar a,
 .player-bar a:hover {
-  color: white;
+  /* color: white; */
   cursor: pointer;
   text-decoration: none;
 }
@@ -125,8 +125,8 @@
   border-radius: 50%;
   cursor: pointer;
   -webkit-transition: all 100ms ease-in-out;
-     -moz-transition: all 100ms ease-in-out;
-          transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .seek-bar:hover .thumb {
@@ -150,35 +150,35 @@
 
 @media (max-width: 640px) {
   .player-bar {
-      padding: 1rem;
-      background-color: rgba(0,0,0,0.6);
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .player-bar .main-controls,
   .player-bar .currently-playing,
   .player-bar .volume {
-      display: block;
-      margin: 0 auto;
-      padding: 0;
-      width: 100%;
-      text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
   }
 
   .player-bar .main-controls,
   .player-bar .volume {
-      min-height: 3.5rem;
+    min-height: 3.5rem;
   }
 
   .player-bar .currently-playing {
-      min-height: 2.5rem;
+    min-height: 2.5rem;
   }
 
   .player-bar .artist-name,
   .player-bar .song-name {
-      display: none;
+    display: none;
   }
 
   .player-bar .currently-playing .artist-song-mobile {
-      display: block;
+    display: block;
   }
 }
